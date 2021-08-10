@@ -1,0 +1,92 @@
+@import 'default';
+@import 'helpers/master';
+@import 'base/master';
+@import 'components/master';
+@import 'layouts/master';
+@import 'pages/master';
+#scroll-top{
+    display: none;
+    @include media(sm){
+       position: fixed;
+       z-index: 3;
+       right: -200px;
+       display: block;
+       bottom: -100px;
+   }
+   &.show{
+       right: 15px;
+       bottom: 100px;
+       @include media(lg){
+           right: 30px;
+       }
+   }
+   span{
+       background-color: $color_hover;
+       color: $hover_bg_text_color;
+       display: inline-block;
+       height: 40px;
+       width: 40px;
+       text-align: center;
+       line-height: 40px;
+       font-size: 25px;
+       &:hover{
+           background-color: $color_primary;
+           color: $primary_bg_text_color;
+       }
+   }
+
+}
+
+// PRELOADER    
+.rtl .preloader .loader{
+    left: initial;
+    right: 50%;
+}
+// BOOSTER EXTENSION
+.rtl .twp-social-share-layout-2 .twp-toggle-share span{
+    margin-left: 5px;
+}
+.rtl .twp-toggle-share{
+    display: inline-block;
+    padding-right: 5px;
+}
+.rtl .twp-like-dislike-button .twp-like-count,
+.rtl .twp-like-dislike-button .twp-dislike-count{
+    margin-right: -10px;
+    margin-left: initial;
+}
+.rtl .be-author-details .be-author-email .booster-icon,
+.rtl .be-author-details .be-author-role .booster-icon{
+    margin-left: 10px;
+    margin-right: initial;
+}
+// READ MORE
+.rtl .nr-image-section .nr-readtime-section{
+    left: 0;
+    right: initial;
+}
+// TITLE
+.rtl .widget-title:after,
+.rtl .nr-title-style-1:after{
+    left: initial;
+    right: 0;
+}   
+// FOOTER
+@media (min-width: 768px){
+    .rtl .nr-site-footer .nr-footer-layout-1 .nr-copyright-section .nr-copyright-text{
+        text-align: left;
+    }
+}
+// SINGLE PAGE 
+.rtl .singular-main-block blockquote cite{
+    text-align: left;
+}
+.rtl .entry-meta-item .entry-meta-icon{
+    margin-right: initial;
+    margin-left: 1rem;
+}
+.rtl #comments .comment-author img{
+    float: right;
+    margin-right: initial;
+    margin-left: 20px;
+}

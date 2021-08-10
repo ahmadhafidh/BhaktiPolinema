@@ -1,0 +1,161 @@
+
+/*--------------------------------------------------------------
+# Social Icon
+--------------------------------------------------------------*/
+.social-menu ul li{
+    a[href*="vk.com"]{
+        &:hover{
+            color: #4a76a8;
+        }
+    }
+    a[href*="reddit.com"]{
+        &:hover{
+            color: #ff4500;
+        }
+    }
+    a[href*="whatsapp.com"]{
+        &:hover{
+            color: #00e676;
+        }
+    }
+    a[href*="tumblr.com"]{
+        &:hover{
+            color: #3e5a70;
+        }
+    }
+    a[href*="pinterest.com"]{
+        &:hover{
+            color: #bd071c;
+        }
+    }
+    a[href*="facebook.com"]{
+        &:hover{
+            color: #3b5999;
+        }
+    }
+    a[href*="dribbble.com"]{
+        &:hover{
+            color: #ea4c89;
+        }
+    }
+    a[href*="twitter.com"]{
+        &:hover{
+            color: #1ca0fe;
+        }
+    }
+    a[href*="youtube.com"]{
+        &:hover{
+            color: #ff0000;
+        }
+    }
+    a[href*="linkedin.com"]{
+        &:hover{
+            color: #0177b5;
+        }
+    }
+    a[href*="instagram.com"]{
+        &:hover{
+            color: #E1306c;
+        }
+    }
+    a[href*="vimeo.com"]{
+        &:hover{
+            color: #1ab7ea;
+        }
+    }
+    a[href*="wordpress.com"]{
+        &:hover{
+            color: #0074aa;
+        }
+    }
+    a[href*="t.me"],
+    a[href*="telegram"]{
+        &:hover{
+            color: #0088CC;
+        }
+    }
+}
+.social-menu ul li a:after {
+    font-size: 24px;
+}
+
+.social-menu ul li a[href*="bitbucket.org"]:after {
+    content: "\f193";
+}
+
+.social-menu ul li a[href*="dribbble.com"]:after {
+    content: "\f233";
+}
+
+.social-menu ul li a[href*="facebook.com"]:after {
+    content: "\f236";
+}
+
+.social-menu ul li a[href*="github.com"]:after {
+    content: "\f239";
+}
+
+.social-menu ul li a[href*="instagram.com"]:after {
+    content: "\f23e";
+}
+
+.social-menu ul li a[href*="linkedin.com"]:after {
+    content: "\f240";
+}
+
+.social-menu ul li a[href*="pinterest.com"]:after {
+    content: "\f244";
+}
+
+.social-menu ul li a[href*="plus.google.com"]:after {
+    content: "\f23b";
+}
+
+.social-menu ul li a[href*="reddit.com"]:after {
+    content: "\f247";
+}
+
+.social-menu ul li a[href*="slack.com"]:after {
+    content: "\f10b"
+}
+
+.social-menu ul li a[href*="snapchat.com"]:after {
+    content: "\f24b";
+}
+
+.social-menu ul li a[href*="tumblr.com"]:after {
+    content: "\f24d";
+}
+
+.social-menu ul li a[href*="twitch.tv"]:after {
+    content: "\f2af";
+}
+
+.social-menu ul li a[href*="twitter.com"]:after {
+    content: "\f2b0";
+}
+
+.social-menu ul li a[href*="vimeo.com"]:after {
+    content: "\f2c4";
+}
+
+.social-menu ul li a[href*="vk.com"]:after {
+    content: "\f10d";
+}
+
+.social-menu ul li a[href*="whatsapp.com"]:after {
+    content: "\f2c5";
+}
+
+.social-menu ul li a[href*="wordpress.org"]:after,
+.social-menu ul li a[href*="wordpress.com"]:after {
+    content: "\f330";
+}
+
+.social-menu ul li a[href*="youtube.com"]:after { 
+    content: "\f34f";
+}
+.social-menu ul li a[href*="t.me"]:after,
+.social-menu ul li a[href*="telegram"]:after {
+    content: "\f376";
+}

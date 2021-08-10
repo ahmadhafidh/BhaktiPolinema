@@ -1,0 +1,105 @@
+.floating-nav-arrow {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 48px;
+    min-height: 100px;
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    margin-top: -50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    transition: width 375ms ease-in-out;
+    background-color: #fff;
+    color: #666;
+}
+
+.floating-nav-prev {
+    left: 0;
+    right: auto;
+    border-radius: 0 6px 6px 0;
+}
+
+.floating-nav-next {
+    right: 0;
+    left: auto;
+    border-radius: 6px 0 0 6px;
+}
+
+.floating-nav-arrow:hover {
+    width: 448px;
+}
+
+.nav-arrow-area {
+    display: block;
+    width: 48px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.nav-arrow-area .svg-icon {
+    line-height: 100px;
+    height: 100px;
+}
+
+.floating-nav-next .nav-arrow-area {
+    right: 0;
+    left: auto;
+}
+.nav-arrow-content a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+}
+
+.floating-nav-arrow .nav-arrow-content {
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 400px;
+    min-height: 100px;
+    padding-right: 15px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    text-align: left;
+}
+
+.floating-nav-next .nav-arrow-content {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    padding-right: 0;
+    padding-left: 15px; 
+    left: 0;
+    right: auto;
+}
+
+.floating-nav-arrow .nav-arrow-content .post-thumbnail {
+    float: left;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: 100px;
+    margin: 0;//overwrite
+}
+
+.floating-nav-arrow .nav-arrow-content .entry-header .entry-title {
+    margin: 10px 20px;
+    padding: 0;
+}

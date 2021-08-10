@@ -1,0 +1,57 @@
+
+.slick-arrow{
+    cursor: pointer;
+}
+.#{$prefix}-slick-arrow{
+    .slick-arrow{
+        font-size: 0;
+        background-color: $color_primary;
+        color: $primary_bg_text_color;
+        width: 40px;
+        height: 40px;
+        @include border();
+        border-color: $color_primary;
+        text-align: center;
+        line-height: 38px;
+        padding: 0;
+        outline: none;
+        &:hover{
+            border-radius: 100%;
+            background-color: transparent;
+            color: $color_primary;
+            border-color: $color_primary;
+        }
+        &:before{
+            @extend %ionicons;
+            display: block;
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+        }
+        
+    }
+    .slick-prev{
+        &:before{
+            content:'\f27d';
+        }
+    }
+    .slick-next{
+        &:before{
+            content:'\f287';
+        }
+    }
+}
+.#{$prefix}-carousel-post-section{
+    .slick-arrow{
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        z-index: 1;
+    }
+    .slick-prev{
+        left: 7.5px; 
+    }
+    .slick-next{
+        right: 7.5px;
+    }
+}

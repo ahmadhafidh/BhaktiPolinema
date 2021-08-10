@@ -1,0 +1,25 @@
+.header-layout-3{
+    .#{$prefix}-navigation-section{
+        margin-top: -1px; 
+    }
+}
+.#{$prefix}-header-layout-3{
+    .navbar-item{
+        &.navbar-item-left{
+            justify-content: center;
+            @include media(sm){ 
+                text-align: center;
+            }
+        }
+        &.navbar-item-right{
+            flex: 0 0 100%;
+            max-width: 100%;
+            justify-content: center;
+            @include media(lg){
+                position: absolute;
+                right: 60px;
+            }
+        }
+    }
+    
+}

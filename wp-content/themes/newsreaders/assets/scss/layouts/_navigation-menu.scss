@@ -1,0 +1,85 @@
+.#{$prefix}-navigation-section{
+    background-color: $color_black;
+    position: relative;
+    margin-bottom: 8px;
+    display: none;
+    @include media(lg){
+        display: block;
+    }
+    &.sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        z-index: 10;
+        @include transition();
+    }
+    &:after{
+        position: absolute;
+        content: '';
+        height: 8px;
+        width: 100%;
+        background-color: $color_primary;
+        display: block;
+        left: 0;
+        bottom: -8px;
+    }
+    .main-navigation{
+        .menu{
+            >li{
+                &:hover{
+                    background-color: $color_primary;
+                    >.link-icon-wrapper{
+                        >a{
+                            color: $primary_bg_text_color;
+                            
+                        }
+                        svg{
+                            color: $primary_bg_text_color;
+                        }
+                    }
+                }
+                >a{
+                    color: $color_white;
+                    font-size: 18px;
+                    &:visited{
+                        color: $color_white;
+                    }
+                }
+                >.link-icon-wrapper{
+                    >a{
+                        font-size: 18px;
+                        color: $color_white;
+                        &:visited{
+                            color: $color_white;
+                        }
+                    }
+                    svg{
+                        color: $color_white;
+                    }
+                }
+            }
+            .sub-menu{
+                a{
+                    &:hover{
+                        color: $color_primary;
+                    }
+                }
+                
+            }
+        }
+    }
+    .#{$prefix}-progress-bar{
+        position: absolute;
+        left: 0;
+        height: 0;
+        bottom: -8px;
+        background-color: $color_shade;
+        z-index: 2;
+        @include transition( width,0.2s,ease);
+        @include media(lg){
+            overflow: visible;
+            height: 8px;
+        }
+    }
+}

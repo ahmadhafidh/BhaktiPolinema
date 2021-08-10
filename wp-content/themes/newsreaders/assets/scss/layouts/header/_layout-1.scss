@@ -1,0 +1,17 @@
+
+
+.header-layout-1{
+    .#{$prefix}-navigation-section{
+        margin-top: -1px;
+    }
+    .navbar-item{
+        &.navbar-item-left{
+            @include media(sm){
+                text-align: initial;
+                flex: 0 0 calc(100% - 230px);
+                max-width: calc(100% - 230px);
+            }
+        }
+    }
+   
+}

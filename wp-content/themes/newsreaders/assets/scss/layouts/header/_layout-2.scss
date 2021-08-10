@@ -1,0 +1,51 @@
+.header-layout-2{
+    &.site-header-with-image{
+        color: $color_white;
+        a{
+            &:hover{
+                color: $color_shade;
+            }
+        }
+        .sub-menu,
+        .children{
+            a{
+                color: $color_black;
+                &:visited{
+                    color: $color_black;
+                }
+                &:hover{
+                    color: $color-primary;
+                }
+            }
+        }
+        button{
+            color: $color_white;
+            &:hover{
+                color: $color_shade;
+            }
+        }
+    }
+    .navbar-item{
+        &.navbar-item-left{
+            @include media(sm){
+                flex: 0 0 300px;
+                max-width: 300px;
+            }
+        }
+    }
+    .navbar-item-mid{
+        @include media(sm){
+            flex: 0 0 calc(100% - 530px);
+            max-width: calc(100% - 530px);
+        }
+    }
+    .menu{
+        >ul{
+            justify-content: flex-end;
+        }
+    }
+    
+    .header-navbar{
+        overflow: hidden;
+    }
+}

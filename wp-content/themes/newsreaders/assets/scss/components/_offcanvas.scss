@@ -1,0 +1,200 @@
+#offcanvas-menu {
+    background: rgba(0, 0, 0, 0.42);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    right: -100%;
+    width: 100%;
+    z-index: 1000;
+    justify-content: flex-end;
+    -webkit-transition: right 0.5s;
+    -moz-transition: right 0.5s;
+    -ms-transition: right 0.5s;
+    -o-transition: right 0.5s;
+    transition: right 0.5s;
+    a{
+        color: $color_black;
+        &:visited{
+            color: $color_black;
+        }
+        &:hover{
+            color: $color_hover;
+        }
+    }
+}
+
+#offcanvas-menu .offcanvas-wraper {
+    padding: 20px 100px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .1);
+}
+
+#offcanvas-menu .offcanvas-wraper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media screen and (max-width: 991px) {
+    #offcanvas-menu .offcanvas-wraper {
+        -ms-flex: 0 0 80%;
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #offcanvas-menu .offcanvas-wraper {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+#offcanvas-menu .close-offcanvas-menu {
+    text-align: right;
+    cursor: pointer;
+}
+
+#offcanvas-menu .close-offcanvas-menu .offcanvas-close {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px auto;
+    display: block;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.admin-bar #offcanvas-menu .close-offcanvas-menu .offcanvas-close {
+    margin-top: 40px;
+}
+
+.offcanvas-wraper > * {
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+    opacity: 0;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+    will-change: transform, opacity;
+}
+
+.offcanvas-menu-active .offcanvas-wraper > * {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.offcanvas-menu-active .offcanvas-wraper .offcanvas-branding {
+    transition-delay: 0.3s;
+}
+
+.offcanvas-menu-active .offcanvas-wraper .offcanvas-main-navigation {
+    transition-delay: 0.6s;
+}
+
+.offcanvas-menu-active .offcanvas-wraper .offcanvas-social-navigation {
+    transition-delay: 0.9s;
+}
+
+.offcanvas-close span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.offcanvas-close span.offcanvas-close-label {
+    font-size: 1.6rem;
+    margin: 0 1.5rem 0 0;
+    white-space: nowrap;
+}
+
+#offcanvas-menu.offcanvas-menu-active {
+    display: -ms-flexbox;
+    display: flex;
+    right: 0;
+}
+
+.offcanvas-main-navigation {
+    width: 100%;
+}
+
+.offcanvas-item {
+    margin-bottom: 20px;
+}
+
+.offcanvas-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas-main-navigation li {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.offcanvas-main-navigation li.page_item_has_children,
+.offcanvas-main-navigation li.menu-item-has-children {
+    position: relative;
+}
+
+.offcanvas-main-navigation li:last-child {
+    border-bottom: none;
+}
+
+.offcanvas-main-navigation a {
+    color: inherit;
+    display: block;
+    font-size: 2.2rem;
+    padding: 20px 0;
+    text-decoration: none;
+    position: relative;
+}
+
+.offcanvas-main-navigation .sub-menu {
+    border-top: 1px solid #eeeeee;
+    display: none;
+}
+
+.offcanvas-main-navigation .sub-menu.submenu-toggle-active {
+    display: block;
+}
+
+.offcanvas-main-navigation .submenu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.offcanvas-main-navigation .submenu-wrapper .submenu-toggle {
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-color: #eeeeee;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.offcanvas-main-navigation .submenu-wrapper .submenu-toggle .svg-icon {
+    height: .9rem;
+    transition: transform .15s linear;
+    width: 1.5rem;
+}
+
+.offcanvas-main-navigation .submenu-wrapper .submenu-toggle.button-toggle-active .svg-icon {
+    transform: rotate(180deg);
+}
+
+.offcanvas-social-navigation li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.offcanvas-social-navigation li a {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+    width: 4.4rem;
+}

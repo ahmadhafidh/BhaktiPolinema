@@ -1,0 +1,1398 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsreaders\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-02 07:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: functions.php:180 inc/pagination.php:34
+msgid "Load More Posts"
+msgstr ""
+
+#: functions.php:181 inc/pagination.php:35
+msgid "No More Posts"
+msgstr ""
+
+#: functions.php:182
+msgid "Loading..."
+msgstr ""
+
+#: functions.php:242
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:243
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:244
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:257 assets/lib/breadcrumbs/breadcrumbs.php:310
+msgid "Home"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:33
+msgid "Skip to the content"
+msgstr ""
+
+#: inc/widgets.php:17
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/widgets.php:19 inc/widgets.php:29 inc/widgets.php:38 inc/widgets.php:58
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets.php:27
+msgid "Top Header Widget Area"
+msgstr ""
+
+#: inc/widgets.php:36
+msgid "Homepage Widget Area"
+msgstr ""
+
+#: inc/widgets.php:51
+msgid "One"
+msgstr ""
+
+#: inc/widgets.php:52
+msgid "Two"
+msgstr ""
+
+#: inc/widgets.php:53
+msgid "Three"
+msgstr ""
+
+#: inc/widgets.php:56
+msgid "Footer Widget "
+msgstr ""
+
+#: inc/custom-functions.php:33
+msgid "-- Select Page --"
+msgstr ""
+
+#: inc/custom-functions.php:182
+msgid "Show sub menu"
+msgstr ""
+
+#: inc/custom-functions.php:219
+msgid "-- Select Category --"
+msgstr ""
+
+#: inc/custom-functions.php:471
+msgid "Previous post:"
+msgstr ""
+
+#: inc/custom-functions.php:472
+msgid "Next post:"
+msgstr ""
+
+#: inc/custom-functions.php:666
+msgid "Close"
+msgstr ""
+
+#: inc/custom-functions.php:784 inc/customizer/footer.php:104
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/custom-functions.php:831 inc/custom-functions.php:910
+msgid "Copyright "
+msgstr ""
+
+#: inc/custom-functions.php:835 inc/custom-functions.php:914
+msgid "Theme: "
+msgstr ""
+
+#: inc/custom-functions.php:835 inc/custom-functions.php:914
+msgid "By "
+msgstr ""
+
+#. Author of the theme
+#: inc/custom-functions.php:835 inc/custom-functions.php:914
+msgid "Themeinwp"
+msgstr ""
+
+#: inc/custom-functions.php:835 inc/custom-functions.php:914
+msgid "Themeinwp. "
+msgstr ""
+
+#: inc/custom-functions.php:836 inc/custom-functions.php:915
+msgid "Powered by "
+msgstr ""
+
+#: inc/custom-functions.php:836 inc/custom-functions.php:915
+msgid "WordPress"
+msgstr ""
+
+#: inc/custom-functions.php:836 inc/custom-functions.php:915
+msgid "WordPress."
+msgstr ""
+
+#: inc/metabox.php:17 inc/metabox.php:25 inc/customizer/layout.php:13
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/metabox.php:39
+msgid "Global sidebar"
+msgstr ""
+
+#: inc/metabox.php:44
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/metabox.php:49
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/metabox.php:54
+msgid "No sidebar"
+msgstr ""
+
+#: inc/metabox.php:59 inc/metabox.php:65 inc/metabox.php:224
+msgid "Global Layout"
+msgstr ""
+
+#: inc/metabox.php:60
+msgid "Simple Layout"
+msgstr ""
+
+#: inc/metabox.php:61
+msgid "Banner Layout"
+msgstr ""
+
+#: inc/metabox.php:66 inc/customizer/single.php:117
+msgid "Enable Header Overlay"
+msgstr ""
+
+#: inc/metabox.php:88
+msgid "General Settings"
+msgstr ""
+
+#: inc/metabox.php:97
+msgid "Appearance Settings"
+msgstr ""
+
+#: inc/metabox.php:107
+msgid "Booster Extension Settings"
+msgstr ""
+
+#: inc/metabox.php:122
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:152
+msgid "Appearance Layout"
+msgstr ""
+
+#: inc/metabox.php:174
+msgid "Header Overlay"
+msgstr ""
+
+#: inc/metabox.php:196
+msgid "Feature Image Setting"
+msgstr ""
+
+#: inc/metabox.php:205
+msgid "Disable Feature Image"
+msgstr ""
+
+#: inc/metabox.php:215
+msgid "Navigation Setting"
+msgstr ""
+
+#: inc/metabox.php:220
+msgid "Navigation Type"
+msgstr ""
+
+#: inc/metabox.php:225 inc/customizer/single.php:62
+msgid "Disable Navigation"
+msgstr ""
+
+#: inc/metabox.php:226 inc/customizer/single.php:63
+msgid "Next Previous Navigation"
+msgstr ""
+
+#: inc/metabox.php:227 inc/customizer/single.php:64
+msgid "Ajax Load Next 3 Posts Contents"
+msgstr ""
+
+#: inc/metabox.php:253
+msgid "Booster Extension Plugin Content"
+msgstr ""
+
+#: inc/metabox.php:259
+msgid "Disable Post Views"
+msgstr ""
+
+#: inc/metabox.php:269
+msgid "Disable Post Read Time"
+msgstr ""
+
+#: inc/metabox.php:279
+msgid "Disable Post Like Dislike"
+msgstr ""
+
+#: inc/metabox.php:289
+msgid "Disable Post Author Box"
+msgstr ""
+
+#: inc/metabox.php:299
+msgid "Disable Post Social Share"
+msgstr ""
+
+#: inc/metabox.php:309
+msgid "Disable Post Reaction"
+msgstr ""
+
+#: inc/pagination.php:47
+msgid "Older posts"
+msgstr ""
+
+#: inc/pagination.php:49
+msgid "Newer posts"
+msgstr ""
+
+#. %s: Name of current post.
+#: inc/pagination.php:163 template-parts/content-single.php:118
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/pagination.php:169 template-parts/content-single.php:123
+#: template-parts/content.php:94
+msgid "Pages:"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:140
+#, php-format
+msgctxt "post date"
+msgid "%s "
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:182
+#, php-format
+msgctxt "post author"
+msgid "%s "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:226
+msgid "In"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:242
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:272
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:324
+msgid "Fallback Image"
+msgstr ""
+
+#: inc/read-later.php:40
+msgid " is added to your Read Later List."
+msgstr ""
+
+#: inc/read-later.php:49
+msgid " is removed from your Read Later List."
+msgstr ""
+
+#: classes/classes-fonts.php:103 classes/classes-fonts.php:193
+#: classes/classes-fonts.php:250 classes/classes-fonts.php:279
+#: classes/classes-fonts.php:316 classes/classes-fonts.php:337
+#: classes/classes-fonts.php:364 classes/classes-fonts.php:391
+#: classes/classes-fonts.php:410 classes/classes-fonts.php:439
+#: classes/classes-fonts.php:540 classes/classes-fonts.php:569
+#: classes/classes-fonts.php:699 classes/classes-fonts.php:842
+#: classes/classes-fonts.php:873 classes/classes-fonts.php:895
+#: classes/classes-fonts.php:1038 classes/classes-fonts.php:1113
+msgid "Thin 100"
+msgstr ""
+
+#: classes/classes-fonts.php:104 classes/classes-fonts.php:251
+#: classes/classes-fonts.php:280 classes/classes-fonts.php:338
+#: classes/classes-fonts.php:365 classes/classes-fonts.php:392
+#: classes/classes-fonts.php:411 classes/classes-fonts.php:440
+#: classes/classes-fonts.php:541 classes/classes-fonts.php:570
+#: classes/classes-fonts.php:700 classes/classes-fonts.php:843
+#: classes/classes-fonts.php:896 classes/classes-fonts.php:1114
+msgid "Thin 100 Italic "
+msgstr ""
+
+#: classes/classes-fonts.php:105 classes/classes-fonts.php:195
+#: classes/classes-fonts.php:254 classes/classes-fonts.php:283
+#: classes/classes-fonts.php:317 classes/classes-fonts.php:341
+#: classes/classes-fonts.php:368 classes/classes-fonts.php:393
+#: classes/classes-fonts.php:412 classes/classes-fonts.php:443
+#: classes/classes-fonts.php:505 classes/classes-fonts.php:521
+#: classes/classes-fonts.php:544 classes/classes-fonts.php:573
+#: classes/classes-fonts.php:597 classes/classes-fonts.php:630
+#: classes/classes-fonts.php:653 classes/classes-fonts.php:676
+#: classes/classes-fonts.php:703 classes/classes-fonts.php:823
+#: classes/classes-fonts.php:846 classes/classes-fonts.php:875
+#: classes/classes-fonts.php:897 classes/classes-fonts.php:920
+#: classes/classes-fonts.php:943 classes/classes-fonts.php:979
+#: classes/classes-fonts.php:996 classes/classes-fonts.php:1040
+#: classes/classes-fonts.php:1115 classes/classes-fonts.php:1193
+#: classes/classes-fonts.php:1209
+msgid "Light 300"
+msgstr ""
+
+#: classes/classes-fonts.php:106 classes/classes-fonts.php:255
+#: classes/classes-fonts.php:284 classes/classes-fonts.php:342
+#: classes/classes-fonts.php:369 classes/classes-fonts.php:394
+#: classes/classes-fonts.php:413 classes/classes-fonts.php:444
+#: classes/classes-fonts.php:506 classes/classes-fonts.php:522
+#: classes/classes-fonts.php:545 classes/classes-fonts.php:574
+#: classes/classes-fonts.php:631 classes/classes-fonts.php:654
+#: classes/classes-fonts.php:677 classes/classes-fonts.php:704
+#: classes/classes-fonts.php:824 classes/classes-fonts.php:847
+#: classes/classes-fonts.php:898 classes/classes-fonts.php:921
+#: classes/classes-fonts.php:944 classes/classes-fonts.php:980
+#: classes/classes-fonts.php:997 classes/classes-fonts.php:1116
+#: classes/classes-fonts.php:1210
+msgid "Light 300 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:107 classes/classes-fonts.php:130
+#: classes/classes-fonts.php:153 classes/classes-fonts.php:176
+#: classes/classes-fonts.php:196 classes/classes-fonts.php:211
+#: classes/classes-fonts.php:225 classes/classes-fonts.php:256
+#: classes/classes-fonts.php:285 classes/classes-fonts.php:318
+#: classes/classes-fonts.php:343 classes/classes-fonts.php:370
+#: classes/classes-fonts.php:395 classes/classes-fonts.php:414
+#: classes/classes-fonts.php:428 classes/classes-fonts.php:445
+#: classes/classes-fonts.php:465 classes/classes-fonts.php:490
+#: classes/classes-fonts.php:507 classes/classes-fonts.php:523
+#: classes/classes-fonts.php:546 classes/classes-fonts.php:575
+#: classes/classes-fonts.php:598 classes/classes-fonts.php:610
+#: classes/classes-fonts.php:632 classes/classes-fonts.php:655
+#: classes/classes-fonts.php:678 classes/classes-fonts.php:705
+#: classes/classes-fonts.php:726 classes/classes-fonts.php:739
+#: classes/classes-fonts.php:753 classes/classes-fonts.php:765
+#: classes/classes-fonts.php:779 classes/classes-fonts.php:801
+#: classes/classes-fonts.php:813 classes/classes-fonts.php:825
+#: classes/classes-fonts.php:848 classes/classes-fonts.php:876
+#: classes/classes-fonts.php:899 classes/classes-fonts.php:922
+#: classes/classes-fonts.php:945 classes/classes-fonts.php:966
+#: classes/classes-fonts.php:981 classes/classes-fonts.php:998
+#: classes/classes-fonts.php:1017 classes/classes-fonts.php:1041
+#: classes/classes-fonts.php:1055 classes/classes-fonts.php:1064
+#: classes/classes-fonts.php:1074 classes/classes-fonts.php:1085
+#: classes/classes-fonts.php:1094 classes/classes-fonts.php:1104
+#: classes/classes-fonts.php:1117 classes/classes-fonts.php:1130
+#: classes/classes-fonts.php:1138 classes/classes-fonts.php:1154
+#: classes/classes-fonts.php:1176 classes/classes-fonts.php:1184
+#: classes/classes-fonts.php:1194 classes/classes-fonts.php:1211
+msgid "Regular 400"
+msgstr ""
+
+#: classes/classes-fonts.php:108 classes/classes-fonts.php:131
+#: classes/classes-fonts.php:154 classes/classes-fonts.php:177
+#: classes/classes-fonts.php:212 classes/classes-fonts.php:226
+#: classes/classes-fonts.php:257 classes/classes-fonts.php:286
+#: classes/classes-fonts.php:344 classes/classes-fonts.php:371
+#: classes/classes-fonts.php:396 classes/classes-fonts.php:415
+#: classes/classes-fonts.php:429 classes/classes-fonts.php:446
+#: classes/classes-fonts.php:466 classes/classes-fonts.php:491
+#: classes/classes-fonts.php:508 classes/classes-fonts.php:524
+#: classes/classes-fonts.php:547 classes/classes-fonts.php:576
+#: classes/classes-fonts.php:599 classes/classes-fonts.php:611
+#: classes/classes-fonts.php:633 classes/classes-fonts.php:656
+#: classes/classes-fonts.php:679 classes/classes-fonts.php:706
+#: classes/classes-fonts.php:740 classes/classes-fonts.php:754
+#: classes/classes-fonts.php:766 classes/classes-fonts.php:780
+#: classes/classes-fonts.php:802 classes/classes-fonts.php:826
+#: classes/classes-fonts.php:849 classes/classes-fonts.php:900
+#: classes/classes-fonts.php:923 classes/classes-fonts.php:946
+#: classes/classes-fonts.php:982 classes/classes-fonts.php:999
+#: classes/classes-fonts.php:1018 classes/classes-fonts.php:1075
+#: classes/classes-fonts.php:1118 classes/classes-fonts.php:1139
+#: classes/classes-fonts.php:1155 classes/classes-fonts.php:1212
+msgid "Regular 400 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:109 classes/classes-fonts.php:132
+#: classes/classes-fonts.php:155 classes/classes-fonts.php:178
+#: classes/classes-fonts.php:197 classes/classes-fonts.php:213
+#: classes/classes-fonts.php:227 classes/classes-fonts.php:258
+#: classes/classes-fonts.php:287 classes/classes-fonts.php:319
+#: classes/classes-fonts.php:345 classes/classes-fonts.php:372
+#: classes/classes-fonts.php:447 classes/classes-fonts.php:467
+#: classes/classes-fonts.php:548 classes/classes-fonts.php:577
+#: classes/classes-fonts.php:707 classes/classes-fonts.php:781
+#: classes/classes-fonts.php:850 classes/classes-fonts.php:877
+#: classes/classes-fonts.php:901 classes/classes-fonts.php:924
+#: classes/classes-fonts.php:1000 classes/classes-fonts.php:1042
+#: classes/classes-fonts.php:1156 classes/classes-fonts.php:1195
+#: classes/classes-fonts.php:1213
+msgid "Medium 500"
+msgstr ""
+
+#: classes/classes-fonts.php:110 classes/classes-fonts.php:133
+#: classes/classes-fonts.php:156 classes/classes-fonts.php:179
+#: classes/classes-fonts.php:214 classes/classes-fonts.php:228
+#: classes/classes-fonts.php:259 classes/classes-fonts.php:288
+#: classes/classes-fonts.php:346 classes/classes-fonts.php:373
+#: classes/classes-fonts.php:448 classes/classes-fonts.php:468
+#: classes/classes-fonts.php:549 classes/classes-fonts.php:578
+#: classes/classes-fonts.php:708 classes/classes-fonts.php:782
+#: classes/classes-fonts.php:851 classes/classes-fonts.php:902
+#: classes/classes-fonts.php:925 classes/classes-fonts.php:1001
+#: classes/classes-fonts.php:1157 classes/classes-fonts.php:1214
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:111 classes/classes-fonts.php:134
+#: classes/classes-fonts.php:159 classes/classes-fonts.php:182
+#: classes/classes-fonts.php:199 classes/classes-fonts.php:215
+#: classes/classes-fonts.php:231 classes/classes-fonts.php:262
+#: classes/classes-fonts.php:291 classes/classes-fonts.php:320
+#: classes/classes-fonts.php:349 classes/classes-fonts.php:376
+#: classes/classes-fonts.php:399 classes/classes-fonts.php:416
+#: classes/classes-fonts.php:430 classes/classes-fonts.php:451
+#: classes/classes-fonts.php:471 classes/classes-fonts.php:492
+#: classes/classes-fonts.php:509 classes/classes-fonts.php:525
+#: classes/classes-fonts.php:552 classes/classes-fonts.php:581
+#: classes/classes-fonts.php:600 classes/classes-fonts.php:612
+#: classes/classes-fonts.php:636 classes/classes-fonts.php:659
+#: classes/classes-fonts.php:682 classes/classes-fonts.php:711
+#: classes/classes-fonts.php:727 classes/classes-fonts.php:741
+#: classes/classes-fonts.php:767 classes/classes-fonts.php:785
+#: classes/classes-fonts.php:803 classes/classes-fonts.php:814
+#: classes/classes-fonts.php:827 classes/classes-fonts.php:854
+#: classes/classes-fonts.php:879 classes/classes-fonts.php:903
+#: classes/classes-fonts.php:926 classes/classes-fonts.php:949
+#: classes/classes-fonts.php:968 classes/classes-fonts.php:985
+#: classes/classes-fonts.php:1002 classes/classes-fonts.php:1021
+#: classes/classes-fonts.php:1044 classes/classes-fonts.php:1076
+#: classes/classes-fonts.php:1095 classes/classes-fonts.php:1121
+#: classes/classes-fonts.php:1140 classes/classes-fonts.php:1160
+#: classes/classes-fonts.php:1197 classes/classes-fonts.php:1217
+msgid "Bold 700"
+msgstr ""
+
+#: classes/classes-fonts.php:112 classes/classes-fonts.php:135
+#: classes/classes-fonts.php:160 classes/classes-fonts.php:183
+#: classes/classes-fonts.php:216 classes/classes-fonts.php:232
+#: classes/classes-fonts.php:263 classes/classes-fonts.php:292
+#: classes/classes-fonts.php:350 classes/classes-fonts.php:377
+#: classes/classes-fonts.php:400 classes/classes-fonts.php:417
+#: classes/classes-fonts.php:452 classes/classes-fonts.php:472
+#: classes/classes-fonts.php:493 classes/classes-fonts.php:510
+#: classes/classes-fonts.php:526 classes/classes-fonts.php:553
+#: classes/classes-fonts.php:582 classes/classes-fonts.php:613
+#: classes/classes-fonts.php:637 classes/classes-fonts.php:660
+#: classes/classes-fonts.php:683 classes/classes-fonts.php:712
+#: classes/classes-fonts.php:742 classes/classes-fonts.php:768
+#: classes/classes-fonts.php:786 classes/classes-fonts.php:804
+#: classes/classes-fonts.php:828 classes/classes-fonts.php:855
+#: classes/classes-fonts.php:904 classes/classes-fonts.php:927
+#: classes/classes-fonts.php:950 classes/classes-fonts.php:986
+#: classes/classes-fonts.php:1003 classes/classes-fonts.php:1022
+#: classes/classes-fonts.php:1122 classes/classes-fonts.php:1141
+#: classes/classes-fonts.php:1161 classes/classes-fonts.php:1218
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:113 classes/classes-fonts.php:136
+#: classes/classes-fonts.php:200 classes/classes-fonts.php:233
+#: classes/classes-fonts.php:264 classes/classes-fonts.php:293
+#: classes/classes-fonts.php:321 classes/classes-fonts.php:453
+#: classes/classes-fonts.php:473 classes/classes-fonts.php:511
+#: classes/classes-fonts.php:554 classes/classes-fonts.php:583
+#: classes/classes-fonts.php:601 classes/classes-fonts.php:638
+#: classes/classes-fonts.php:661 classes/classes-fonts.php:684
+#: classes/classes-fonts.php:713 classes/classes-fonts.php:787
+#: classes/classes-fonts.php:856 classes/classes-fonts.php:880
+#: classes/classes-fonts.php:1045 classes/classes-fonts.php:1162
+#: classes/classes-fonts.php:1198
+msgid "Extra Bold 800"
+msgstr ""
+
+#: classes/classes-fonts.php:114 classes/classes-fonts.php:137
+#: classes/classes-fonts.php:234 classes/classes-fonts.php:265
+#: classes/classes-fonts.php:294 classes/classes-fonts.php:454
+#: classes/classes-fonts.php:474 classes/classes-fonts.php:512
+#: classes/classes-fonts.php:555 classes/classes-fonts.php:584
+#: classes/classes-fonts.php:639 classes/classes-fonts.php:662
+#: classes/classes-fonts.php:685 classes/classes-fonts.php:714
+#: classes/classes-fonts.php:788 classes/classes-fonts.php:857
+#: classes/classes-fonts.php:1163
+msgid "Extra Bold 800 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:115 classes/classes-fonts.php:138
+#: classes/classes-fonts.php:201 classes/classes-fonts.php:235
+#: classes/classes-fonts.php:266 classes/classes-fonts.php:295
+#: classes/classes-fonts.php:322 classes/classes-fonts.php:418
+#: classes/classes-fonts.php:455 classes/classes-fonts.php:475
+#: classes/classes-fonts.php:527 classes/classes-fonts.php:556
+#: classes/classes-fonts.php:585 classes/classes-fonts.php:640
+#: classes/classes-fonts.php:663 classes/classes-fonts.php:715
+#: classes/classes-fonts.php:789 classes/classes-fonts.php:858
+#: classes/classes-fonts.php:881 classes/classes-fonts.php:905
+#: classes/classes-fonts.php:928 classes/classes-fonts.php:951
+#: classes/classes-fonts.php:987 classes/classes-fonts.php:1023
+#: classes/classes-fonts.php:1046 classes/classes-fonts.php:1142
+#: classes/classes-fonts.php:1164 classes/classes-fonts.php:1199
+msgid "Black 900"
+msgstr ""
+
+#: classes/classes-fonts.php:116 classes/classes-fonts.php:139
+#: classes/classes-fonts.php:236 classes/classes-fonts.php:267
+#: classes/classes-fonts.php:296 classes/classes-fonts.php:419
+#: classes/classes-fonts.php:456 classes/classes-fonts.php:476
+#: classes/classes-fonts.php:528 classes/classes-fonts.php:557
+#: classes/classes-fonts.php:586 classes/classes-fonts.php:641
+#: classes/classes-fonts.php:664 classes/classes-fonts.php:716
+#: classes/classes-fonts.php:790 classes/classes-fonts.php:859
+#: classes/classes-fonts.php:906 classes/classes-fonts.php:929
+#: classes/classes-fonts.php:952 classes/classes-fonts.php:1024
+#: classes/classes-fonts.php:1143 classes/classes-fonts.php:1165
+msgid "Black 900 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:157 classes/classes-fonts.php:180
+#: classes/classes-fonts.php:198 classes/classes-fonts.php:229
+#: classes/classes-fonts.php:260 classes/classes-fonts.php:289
+#: classes/classes-fonts.php:347 classes/classes-fonts.php:374
+#: classes/classes-fonts.php:397 classes/classes-fonts.php:449
+#: classes/classes-fonts.php:469 classes/classes-fonts.php:550
+#: classes/classes-fonts.php:579 classes/classes-fonts.php:634
+#: classes/classes-fonts.php:657 classes/classes-fonts.php:680
+#: classes/classes-fonts.php:709 classes/classes-fonts.php:783
+#: classes/classes-fonts.php:852 classes/classes-fonts.php:878
+#: classes/classes-fonts.php:947 classes/classes-fonts.php:967
+#: classes/classes-fonts.php:983 classes/classes-fonts.php:1019
+#: classes/classes-fonts.php:1043 classes/classes-fonts.php:1119
+#: classes/classes-fonts.php:1158 classes/classes-fonts.php:1196
+#: classes/classes-fonts.php:1215
+msgid "Semi Bold 600"
+msgstr ""
+
+#: classes/classes-fonts.php:158 classes/classes-fonts.php:181
+#: classes/classes-fonts.php:230 classes/classes-fonts.php:261
+#: classes/classes-fonts.php:290 classes/classes-fonts.php:348
+#: classes/classes-fonts.php:375 classes/classes-fonts.php:398
+#: classes/classes-fonts.php:450 classes/classes-fonts.php:470
+#: classes/classes-fonts.php:551 classes/classes-fonts.php:580
+#: classes/classes-fonts.php:635 classes/classes-fonts.php:658
+#: classes/classes-fonts.php:681 classes/classes-fonts.php:710
+#: classes/classes-fonts.php:784 classes/classes-fonts.php:853
+#: classes/classes-fonts.php:948 classes/classes-fonts.php:984
+#: classes/classes-fonts.php:1020 classes/classes-fonts.php:1120
+#: classes/classes-fonts.php:1159 classes/classes-fonts.php:1216
+msgid "Semi Bold 600 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:194 classes/classes-fonts.php:252
+#: classes/classes-fonts.php:281 classes/classes-fonts.php:339
+#: classes/classes-fonts.php:366 classes/classes-fonts.php:441
+#: classes/classes-fonts.php:542 classes/classes-fonts.php:571
+#: classes/classes-fonts.php:596 classes/classes-fonts.php:628
+#: classes/classes-fonts.php:651 classes/classes-fonts.php:701
+#: classes/classes-fonts.php:844 classes/classes-fonts.php:874
+#: classes/classes-fonts.php:941 classes/classes-fonts.php:977
+#: classes/classes-fonts.php:1039
+msgid "Extra Light 200"
+msgstr ""
+
+#: classes/classes-fonts.php:253 classes/classes-fonts.php:282
+#: classes/classes-fonts.php:340 classes/classes-fonts.php:367
+#: classes/classes-fonts.php:442 classes/classes-fonts.php:543
+#: classes/classes-fonts.php:572 classes/classes-fonts.php:629
+#: classes/classes-fonts.php:652 classes/classes-fonts.php:702
+#: classes/classes-fonts.php:845 classes/classes-fonts.php:942
+#: classes/classes-fonts.php:978
+msgid "Extra Light 200 Italic"
+msgstr ""
+
+#: classes/classes-fonts.php:1333
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Name of the template
+msgid "Read Later Page Template"
+msgstr ""
+
+#: inc/customizer/post.php:13
+msgid "Posts Settings"
+msgstr ""
+
+#: inc/customizer/post.php:29
+msgid "Enable Posts Author"
+msgstr ""
+
+#: inc/customizer/post.php:44
+msgid "Enable Posts Date"
+msgstr ""
+
+#: inc/customizer/post.php:59
+msgid "Enable Posts Category"
+msgstr ""
+
+#: inc/customizer/post.php:74
+msgid "Enable Posts Tags"
+msgstr ""
+
+#: inc/customizer/post.php:89
+msgid "Enable Read Time"
+msgstr ""
+
+#: inc/customizer/post.php:104
+msgid "Enable Social Share"
+msgstr ""
+
+#: inc/customizer/post.php:121
+msgid "Posts Fallback Image"
+msgstr ""
+
+#: inc/customizer/pagination.php:13
+msgid "Pagination Settings"
+msgstr ""
+
+#: inc/customizer/pagination.php:30
+msgid "Pagination Method"
+msgstr ""
+
+#: inc/customizer/pagination.php:34
+msgid "Next/Previous Method"
+msgstr ""
+
+#: inc/customizer/pagination.php:35
+msgid "Numeric Method"
+msgstr ""
+
+#: inc/customizer/pagination.php:36
+msgid "Ajax Load More Button"
+msgstr ""
+
+#: inc/customizer/pagination.php:37
+msgid "Ajax Auto Load"
+msgstr ""
+
+#: inc/customizer/typography.php:16
+msgid "Typography Settings"
+msgstr ""
+
+#: inc/customizer/typography.php:32
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer/typography.php:48
+msgid "Headings Font"
+msgstr ""
+
+#: inc/customizer/typography.php:64
+msgid "Headings Weight"
+msgstr ""
+
+#: inc/customizer/typography.php:80
+msgid "Headings Case"
+msgstr ""
+
+#: inc/customizer/typography.php:84
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer/typography.php:85
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/typography.php:86
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/customizer.php:86
+msgid "General Setting"
+msgstr ""
+
+#: inc/customizer/customizer.php:94
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:109
+msgid "Newsreaders Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:110
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/customizer/layout.php:30
+msgid "Global Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/layout.php:34
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/layout.php:35
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/layout.php:36
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/layout.php:57
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer/layout.php:78
+msgid "Enable Inverse Image and Content"
+msgstr ""
+
+#: inc/customizer/color-schema.php:12 inc/customizer/color-schema.php:35
+msgid "Color Schema"
+msgstr ""
+
+#: inc/customizer/color-schema.php:39
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer/color-schema.php:43
+msgid "Black"
+msgstr ""
+
+#: inc/customizer/color-schema.php:62
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/color-schema.php:80
+msgid "Primary Background Text Color"
+msgstr ""
+
+#: inc/customizer/color-schema.php:98
+msgid "Hover Color"
+msgstr ""
+
+#: inc/customizer/color-schema.php:116
+msgid "Hover Background Text Color"
+msgstr ""
+
+#: inc/customizer/color-schema.php:134 inc/customizer/footer.php:71
+#: inc/customizer/footer.php:156
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/header.php:15
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/header.php:32
+msgid "Enable Header/Todays Date"
+msgstr ""
+
+#: inc/customizer/header.php:48
+msgid "Enable Search"
+msgstr ""
+
+#: inc/customizer/header.php:64
+msgid "Enable Responsive Menu"
+msgstr ""
+
+#: inc/customizer/header.php:79
+msgid "Enable Read Later Icon"
+msgstr ""
+
+#: inc/customizer/header.php:94
+msgid "Read Later Page"
+msgstr ""
+
+#: inc/customizer/header.php:95
+msgid ""
+"Selected page should be assigned into \"Read Later Page Template\" Template."
+msgstr ""
+
+#: inc/customizer/header.php:112
+msgid "Enable Breaking News Posts"
+msgstr ""
+
+#: inc/customizer/header.php:127
+msgid "Breaking News Section Title"
+msgstr ""
+
+#: inc/customizer/header.php:143
+msgid "Breaking News Posts Category"
+msgstr ""
+
+#: inc/customizer/header.php:166
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:13
+msgid "Homepage Section Settings"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:25
+msgid "Block Section Style One"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:41
+msgid "Enable Block One Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:56
+msgid "Vertical Slide Section Title"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:71
+msgid "Vertical Slide Section Title Icon"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:75
+msgid "Trending Up"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:76
+msgid "Pulse"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:77
+msgid "Flash"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:78
+msgid "Megaphone"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:79
+msgid "Repeat"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:93
+msgid "Vertical Slide Section Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:109
+msgid "Mid Slide Section Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:126
+msgid "Right Grid Section Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:142
+#: inc/customizer/customizer-home.php:262
+#: inc/customizer/customizer-home.php:368
+#: inc/customizer/customizer-home.php:490
+#: inc/customizer/customizer-home.php:625
+msgid "Enable Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:157
+#: inc/customizer/customizer-home.php:277
+#: inc/customizer/customizer-home.php:383
+#: inc/customizer/customizer-home.php:505
+#: inc/customizer/customizer-home.php:640
+msgid "Enable Date"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:172
+#: inc/customizer/customizer-home.php:292
+#: inc/customizer/customizer-home.php:520
+#: inc/customizer/customizer-home.php:655
+msgid "Enable Author"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:184
+msgid "Block Section Style Two"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:199
+#: inc/customizer/customizer-home.php:548
+msgid "Enable Block Two Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:215
+msgid "Left Side Content Title"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:230
+msgid "Left Side Content Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:246
+msgid "Right Side Content Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:304
+msgid "Block Section Style Three"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:320
+msgid "Enable Block Three Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:336
+msgid "Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:353
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:395
+msgid "Block Section Style Four"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:411
+msgid "Enable Block Four Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:426
+msgid "left Side Section Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:442
+msgid "Mid Section Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:459
+msgid "Right Slide Section Title"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:474
+msgid "Right Side Section Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:532
+msgid "Carousel Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:564
+msgid "Carousel Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:580
+msgid "Enable Slider Autoplay"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:595
+msgid "Enable Slider Arrow"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:610
+msgid "Enable Slider Dots"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:668
+msgid "Breaking News Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:684
+msgid "Enable Breaking News Section Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:699
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:714
+msgid "Breaking News Post Category"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:727
+msgid "Selected Homepage Content Section"
+msgstr ""
+
+#: inc/customizer/customizer-home.php:743
+msgid "Enable Selected Homepage Content Section"
+msgstr ""
+
+#: inc/customizer/footer.php:13
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/customizer/footer.php:30
+msgid "Top Footer Column Layout"
+msgstr ""
+
+#: inc/customizer/footer.php:34
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer/footer.php:35
+msgid "Two Column"
+msgstr ""
+
+#: inc/customizer/footer.php:36
+msgid "Three Column"
+msgstr ""
+
+#: inc/customizer/footer.php:53 inc/customizer/footer.php:138
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/footer.php:79
+msgid "Copyright Area"
+msgstr ""
+
+#: inc/customizer/footer.php:120
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/footer.php:172
+msgid "Footer Copyright Area Layout"
+msgstr ""
+
+#: inc/customizer/footer.php:176
+msgid "Layout One"
+msgstr ""
+
+#: inc/customizer/footer.php:177
+msgid "Layout Two"
+msgstr ""
+
+#: inc/customizer/single.php:12
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer/single.php:28
+msgid "Enable Related Posts"
+msgstr ""
+
+#: inc/customizer/single.php:43
+msgid "Related Posts Section Title"
+msgstr ""
+
+#: inc/customizer/single.php:58
+msgid "Single Post Navigation Type"
+msgstr ""
+
+#: inc/customizer/single.php:78
+msgid "Enable Floating Next/Previous Post Nav"
+msgstr ""
+
+#: inc/customizer/single.php:99
+msgid "Glabal Single Post Layout"
+msgstr ""
+
+#: inc/customizer/default.php:26
+msgid "All rights reserved."
+msgstr ""
+
+#: inc/customizer/default.php:37
+msgid "Related Post"
+msgstr ""
+
+#: inc/customizer/default.php:39 inc/customizer/default.php:95
+msgid "Breaking News"
+msgstr ""
+
+#: inc/customizer/default.php:62
+msgid "Live"
+msgstr ""
+
+#: inc/customizer/default.php:69
+msgid "Recent Post"
+msgstr ""
+
+#: inc/customizer/default.php:72
+msgid "Fashion"
+msgstr ""
+
+#: inc/widgets/widget-breaking-news-style.php:45
+msgid ""
+"Displays post form selected category specific for opinion post in sidebars."
+msgstr ""
+
+#: inc/widgets/widget-breaking-news-style.php:50
+#: inc/widgets/widget-style-list.php:50
+#: inc/widgets/widget-post-style-grid.php:50
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-breaking-news-style.php:55
+#: inc/widgets/widget-style-list.php:55
+#: inc/widgets/widget-post-style-grid.php:55
+msgid "Select Category:"
+msgstr ""
+
+#: inc/widgets/widget-breaking-news-style.php:57
+#: inc/widgets/widget-category-list-style.php:52
+#: inc/widgets/widget-category-list-style.php:57
+#: inc/widgets/widget-category-list-style.php:62
+#: inc/widgets/widget-style-list.php:57
+#: inc/widgets/widget-post-style-grid.php:57
+msgid "All Categories"
+msgstr ""
+
+#: inc/widgets/widget-breaking-news-style.php:60
+#: inc/widgets/widget-category-list-style.php:65
+#: inc/widgets/widget-style-list.php:65
+#: inc/widgets/widget-post-style-grid.php:65
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widget-breaking-news-style.php:69
+msgid "TWP: Opinion"
+msgstr ""
+
+#: inc/widgets/widget-category-list-style.php:45
+msgid ""
+"Displays post form selected category specific for Category List Post in "
+"sidebars."
+msgstr ""
+
+#: inc/widgets/widget-category-list-style.php:50
+msgid "Select Category 1:"
+msgstr ""
+
+#: inc/widgets/widget-category-list-style.php:55
+msgid "Select Category 2:"
+msgstr ""
+
+#: inc/widgets/widget-category-list-style.php:60
+msgid "Select Category 3:"
+msgstr ""
+
+#: inc/widgets/widget-category-list-style.php:74
+msgid "TWP: Category List Post Style"
+msgstr ""
+
+#: inc/widgets/widget-base.php:250
+msgid "Upload"
+msgstr ""
+
+#: inc/widgets/widget-base.php:250
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/widget-base.php:250
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets/widget-base.php:261
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: inc/widgets/widget-style-list.php:45
+msgid ""
+"Displays post form selected category specific for list post in sidebars."
+msgstr ""
+
+#: inc/widgets/widget-style-list.php:60
+#: inc/widgets/widget-post-style-grid.php:60
+msgid "Enable Counter:"
+msgstr ""
+
+#: inc/widgets/widget-style-list.php:74
+msgid "TWP: list Post Style"
+msgstr ""
+
+#: inc/widgets/widget-style-list.php:159
+#: template-parts/components/sections/block-3.php:84
+msgid "Read more"
+msgstr ""
+
+#: inc/widgets/widget-post-style-grid.php:45
+msgid ""
+"Displays post form selected category specific for grid post in sidebars."
+msgstr ""
+
+#: inc/widgets/widget-post-style-grid.php:74
+msgid "TWP: Grid Post Style"
+msgstr ""
+
+#: template-parts/header/header-layout-1.php:93
+#: template-parts/header/header-layout-3.php:86
+#: template-parts/header/header-layout-2.php:103
+msgid "Menu"
+msgstr ""
+
+#: assets/lib/tgmpa/recommended-pligins.php:50
+msgid "Booster Extension"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:308
+msgid "Browse:"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:309
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:311
+msgid "404 Not Found"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:312
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query.
+#: assets/lib/breadcrumbs/breadcrumbs.php:314
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#. %s is the page number.
+#: assets/lib/breadcrumbs/breadcrumbs.php:316
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. %s is the page number.
+#: assets/lib/breadcrumbs/breadcrumbs.php:318
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: assets/lib/breadcrumbs/breadcrumbs.php:320
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: assets/lib/breadcrumbs/breadcrumbs.php:322
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:782
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:799
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:816
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:832
+#: assets/lib/breadcrumbs/breadcrumbs.php:861
+#: assets/lib/breadcrumbs/breadcrumbs.php:888
+#: assets/lib/breadcrumbs/breadcrumbs.php:915
+#: assets/lib/breadcrumbs/breadcrumbs.php:1255
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:833
+#: assets/lib/breadcrumbs/breadcrumbs.php:889
+#: assets/lib/breadcrumbs/breadcrumbs.php:1259
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:834
+#: assets/lib/breadcrumbs/breadcrumbs.php:1263
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: assets/lib/breadcrumbs/breadcrumbs.php:862
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#. Name of the theme
+msgid "Newsreaders"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Newsreaders is a clean, unique, responsive, elegant, multi-layout and highly "
+"organized WordPress magazine or news theme which is made to be used by "
+"online magazines, newspapers, editors, journalists, publishing units, "
+"bloggers, informative sites, educational websites, content writers, digital "
+"news media and other similar websites. Newsreaders is optmized along with "
+"its cross browser compatiblity make your site attractive and eye catching in "
+"any browser and different variations of devices screen size.  Newsreaders is "
+"build taking SEO, speed &amp; content management in mind. Additional "
+"features from plugins like Booster Extension as well as like-dislike option "
+"on direct connection to your user or reader. Demo :https://demo.themeinwp."
+"com/newsreaders/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.themeinwp.com/theme/newsreaders/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.themeinwp.com/"
+msgstr ""

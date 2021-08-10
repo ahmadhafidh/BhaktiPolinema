@@ -1,0 +1,119 @@
+body{
+    &.home{
+        .archive-main-block{
+            @include border-top();
+            border-color: rgba($color_shade,0.43);
+            padding: 30px 0 60px;
+        }
+    }
+}
+.#{$prefix}-customizer-section{
+    padding: 30px 0 60px;
+    .#{$prefix}-section-title{
+        margin: 0;
+        padding-top: 20px;
+    }
+}
+.#{$prefix}-customizer-layout-1{
+    color: $color_white;
+    a{
+        color: $color_white;
+        &:visited{
+            color: $color_white;
+        }
+        &:hover{
+            color: $color_hover;
+        }
+    }
+    .#{$prefix}-single-post{
+        .#{$prefix}-desc{
+            background-color: rgba($color_black,0.43);
+        }
+        
+    }
+    .#{$prefix}-meta-tag{
+        .entry-meta-item{
+            a{
+                color: $color_white;
+                &:visited{
+                    color: $color_white;
+                }
+                &:hover{
+                    color: $color_hover;
+                }
+
+            }
+        }
+    }
+    .#{$prefix}-post{
+        margin-top: 30px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .#{$prefix}-btn{
+        &:visited{
+            color: $primary_bg_text_color;
+        }
+        &:hover{
+            color: $hover_bg_text_color;
+        }
+    }
+}
+.#{$prefix}-customizer-layout-2{
+    .#{$prefix}-order-2{
+        @include media(sm){
+            order: 3;
+        }
+        @include media(lg){
+            order: 2;
+        }
+    }
+    .#{$prefix}-order-3{
+        @include media(sm){
+            order: 2;
+        }
+        @include media(lg){
+            order: 3;
+        }
+    }
+    .#{$prefix}-post-list,
+    .#{$prefix}-post-with-icon-list{
+        margin-top: 30px;
+    }
+    .#{$prefix}-block-post-list{
+        .#{$prefix}-post{
+            margin-top: 30px;
+        }
+    }
+    .#{$prefix}-post-with-icon-list{
+        .#{$prefix}-post-list{
+            margin-top: 0;
+        }
+    }
+}
+.nr-customizer-breaking-news-section{
+    background-color: rgba(225, 225, 225, 0.18);
+    .nr-post-list{
+        padding-left: 45px;
+        padding-right: 45px;
+        margin-top: 30px;
+    }
+    .slick-arrow{
+        position: absolute;
+        top: 23px;
+        border-radius: 100%;
+    }
+    .nr-post{
+        @include border();
+        border-color: rgba($color_shade,0.43);
+        padding: 10px;
+        width: calc(100% - 15px);
+    }
+    .slick-prev{
+        left: 0;
+    }
+    .slick-next{
+        right: 0;
+    }
+}

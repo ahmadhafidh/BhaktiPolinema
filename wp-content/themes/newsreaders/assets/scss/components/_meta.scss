@@ -1,0 +1,110 @@
+.entry-meta,
+.#{$prefix}-meta-tag{
+    line-height: 1;
+    display: flex;
+    flex-wrap: wrap;
+    span{
+        display: inline-block;
+    }
+    .entry-meta-icon{
+        margin-right: 0;//overwrite
+    }
+    .#{$prefix}-caption,
+    .entry-meta-icon{
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }
+    .calendar-icon{
+        svg{
+            position: relative;
+            top: 3px;
+        }
+    }
+    
+    .#{$prefix}-social-share-section{
+        padding-top: 15px;
+    }
+}
+.entry-meta{
+    font-weight: 600;
+    .nr-readtime-section{
+        .post-read-time{
+            background-color: initial;
+            color: inherit;
+            vertical-align: initial;
+            .twp-read-time{
+                i{
+                    font-size: 18px;
+                    position: relative;
+                    top: -2px;
+                }
+            }
+            span{
+                display: inline-block;
+            }
+        }
+    }
+}
+.#{$prefix}-meta-tag{
+    font-size: 14px;
+    font-weight: 500;
+    &.#{$prefix}-meta-sm{
+        svg{
+            height: 15px;
+        }
+        .entry-meta-icon{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .#{$prefix}-caption{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .#{$prefix}-social-share-section{
+            padding-top: 10px;
+        }
+    }
+    .entry-meta-item{
+        a{
+            color: rgba(32,32,32,0.5);
+            &:active{
+                color: rgba(32,32,32,0.5);
+            }
+            &:hover{
+                color: $color_hover;
+            }
+        }
+    }
+
+}
+.#{$prefix}-social-share-section{
+    padding-left: 10px;
+    .twp-social-share-layout-2{
+        display: flex;
+        flex-wrap: wrap;
+        &:hover{
+            .twp-toggle-share{
+                >span{
+                    display: none;
+                }
+            }
+            .twp-share-container{
+                opacity: 1;
+                display: flex;
+            }
+        }
+
+    }
+    .twp-share-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        @include transition();
+        opacity: 0;
+        display: none
+    }
+    .twp-social-icons{
+        padding: 0 5px;
+    }
+    
+}

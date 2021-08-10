@@ -1,0 +1,146 @@
+
+.singular-main-block{
+    .pagination-meta-tag{
+        padding-top: 15px;
+    }
+    .pagination-category{
+        padding-top: 10px;
+        a{
+            margin-top: 5px;
+        }
+    }
+    .wp-block-button__link{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    blockquote{
+        &.wp-block-quote{
+            position: relative;
+            padding: 30px;
+            &:before,
+            &:after{
+                display: block;
+                font-family: fontAwesome;
+                position: absolute;
+                font-size: 24px;
+                color: $color_primary;
+    
+            }
+            &:before{
+                content: '\f10d';
+                left: 0;
+                top: 0;
+            }
+            &:after{
+                content: '\f10e';
+                right: 0;
+                bottom: 0;
+            }
+            p{
+                font-size: 16px;
+                @include media(sm){
+                    padding: 0 15px;
+                }
+            }
+        }
+        cite{
+            display: block;
+            margin-top: 10px;
+            font-weight: $font_weight_semi_bold;
+            text-align: right;
+            @include media(sm){
+                padding-right: 15px;
+            }
+        }
+       
+    }
+    .wp-block-code{
+        background-color: $color_black;
+        color: $color_white;
+        font-family: inherit;
+        code{
+            font-size: 16px;
+            font-family: inherit;
+        }
+    }
+    .wp-block-pullquote{
+        background-color: rgba($color_shade,0.63);
+        color: $color_black;
+        font-size: 16px;
+        padding: 10px 15px 15px;
+        p{
+            font-size: 16px;
+        }
+    }
+    pre{
+        font-family: inherit;
+        font-size: 16px;
+    }
+    .wp-block-table{
+        td{
+            padding: 10px 15px;   
+        }
+    }
+    .wp-block-categories{
+        a{
+            display: inline-block;
+            padding-right: 5px;
+            color: $color_primary;
+            &:hover{
+                color: $color_hover;
+            }
+        }
+    }
+    .entry-meta-tags{
+        .entry-meta-wrapper{
+            flex-wrap: wrap;
+            display: flex;
+        }
+        span{
+            display: inline-block;
+        }
+        .entry-meta-icon{
+            padding-top: 5px;
+            color: $color_primary;
+        }
+        .tags-links{
+            display: inline-block;
+            a{
+                display: inline-block;
+                @include border();
+                border-color: $color_primary;
+                color: $color_primary;
+                padding: 3px 10px 2px;
+                margin: 5px 5px 0;
+                font-size: 14px;
+                text-transform: capitalize;
+                &:hover{
+                    color: $color_hover;
+                    border-color: $color_hover;
+                }
+            }
+        }
+    }
+    .entry-footer{
+        .edit-link{
+            display: inline-block;
+            padding: 10px 5px 0;
+            a{
+                display: inline-block;
+                position: relative;
+                &:before{
+                    content:'\f2db';
+                    @extend %ionicons;
+                    display: inline-block;
+                    padding-right: 5px;
+                }
+            }
+        }
+        .entry-meta{
+            padding-top: 0;//overwrite
+        }
+        .entry-meta-wrapper{
+            align-items: center;
+        }
+    }
+}

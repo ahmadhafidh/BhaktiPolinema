@@ -1,0 +1,70 @@
+.section-border,
+.#{$prefix}-section-border{ 
+    border-top: 1px solid rgba(215,209,209,0.38); 
+}
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $color_shade;
+}
+.nr-secondary-font{
+    font-family: $secondary_font;
+}
+.#{$prefix}-image-hover-effect{
+    overflow: hidden;
+    .#{$prefix}-image{
+        overflow: hidden;
+        @include transition(transform,0.3s,linear);
+        @include backface();  
+    }
+    &:hover{
+        .#{$prefix}-image{
+            @include transform(scale(1.1,1.1));
+        }
+
+    }
+}
+
+.#{$prefix}-image-70{
+    height: 70px;
+}
+.#{$prefix}-image-130{
+    height: 130px;
+}
+.#{$prefix}-image-200{
+    height: 250px;
+    @include media(lg){
+        height: 200px;
+    }
+}
+.#{$prefix}-image-250{
+    height: 250px;
+}
+.#{$prefix}-image-300{
+    height: 300px;
+}
+.#{$prefix}-image-320{
+    height: 320px;
+}
+.#{$prefix}-image-350{
+    height: 350px;
+}
+.#{$prefix}-image-360{
+    height: 360px;
+}
+.#{$prefix}-image-400{
+    height: 400px;
+}
+.#{$prefix}-image-450{
+    height: 450px;
+}
+.nr-bookmark{
+    a.twp-pin-post.twp-pp-active{
+        i{
+            &:before{
+                content:'\f3e8';
+            }
+        }
+    }
+}

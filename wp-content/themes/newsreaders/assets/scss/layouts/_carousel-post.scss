@@ -1,0 +1,14 @@
+.#{$prefix}-carousel-post-section{
+    .slick-arrow{
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        z-index: 1;
+    }
+    .slick-prev{
+        left: 30px; 
+    }
+    .slick-next{
+        right: 30px;
+    }
+}

@@ -1,0 +1,411 @@
+.comments-area{
+    margin-top: 30px;
+    @include border();
+    border-color: rgba($color_shade,0.3);
+    padding: 15px 15px 30px;
+    border-radius: 5px;
+    p,
+    form{
+        margin: 0;
+    }
+    .comment-reply-title{
+        margin: 15px 0 0;
+    }
+    .logged-in-as{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 0 !important;
+        margin-bottom: 0 !important;//overwrite
+        a{
+            margin: 10px 5px 0;
+            font-size: 16px;
+            @include border(2px,solid);
+            border-radius: 5px;
+            border-color: $color_primary;
+            background-color: $color_primary;
+            color: $primary_bg_text_color;
+            padding: 5px 20px;
+            &:hover{
+                border-color: $color_hover;
+                background-color: $color_hover;
+                color: $hover_bg_text_color;
+            }
+            &:last-child{
+                background-color: transparent;
+                color: $color_primary;
+                &:hover{
+                    border-color: $color_hover;
+                    background-color: $color_hover;
+                    color: $hover_bg_text_color;
+                }
+            }
+
+        }
+    }
+    .comment-form-comment{
+        margin-bottom: 0 !important;//overwrite
+    }
+    label{
+        font-size: 18px;
+        margin: 10px 0 0;
+    }
+    input,
+    textarea{
+        margin-top: 15px;
+    }
+    .comments-rating{
+        label{
+            &:before{
+                color: $color_primary;
+            }
+        }
+    }
+    
+}
+.twp-comment-toggle {
+    text-align: left;
+    position: relative;
+    width: 100%;
+}
+
+.comment-toggle-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 45px;
+    z-index: 1;
+    padding: 0 10px;
+    display: inline-block;
+    line-height: 1px;
+}
+
+.comment-toggle-icon.active:after {
+    width: 13px;
+    height: 1px;
+}
+
+.comment-toggle-icon:before,
+.comment-toggle-icon:after {
+    content: '';
+    width: 13px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.comment-toggle-icon:after {
+    width: 1px;
+    height: 13px;
+}
+
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+#comments .comments-title {
+    margin-bottom: 60px;
+    font-size: 26px;
+}
+
+.page #comments .comments-title {
+    margin-top: 60px;
+}
+
+#comments .comment-list {
+    list-style: none;
+    margin: 40px auto;
+    padding: 0;
+}
+
+#comments .comment-list li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+}
+
+#comments .comment-list li article {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#comments .comment-list .children {
+    list-style: none;
+    margin: 0;
+    padding-left: 30px;
+    position: relative;
+}
+
+#comments .comment-list .children li {
+    margin: 0;
+    border: none;
+}
+
+#comments .comment-list .comment-content li {
+    margin-bottom: 10px;
+    border: none;
+}
+
+#comments .comment-list .comment-content h1,
+#comments .comment-list .comment-content h2,
+#comments .comment-list .comment-content h3,
+#comments .comment-list .comment-content h4,
+#comments .comment-list .comment-content h5,
+#comments .comment-list .comment-content h6 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#comments .comment-body {
+    min-height: 60px;
+    display: block;
+    position: relative;
+    clear: both;
+}
+
+#comments .comment-body p:last-child {
+    margin-bottom: 0;
+}
+
+#comments .comment-body footer {
+    margin-bottom: 20px;
+}
+
+#comments .comment-body footer a {
+    color: inherit;
+}
+
+#comments .comment-body .comment-content {
+    font-size: 90%;
+}
+
+#comments .comment-author img {
+    float: left;
+    margin-right: 20px;
+}
+
+#comments .comment-author .fn {
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+#comments .comment-author .says {
+    display: none;
+}
+
+#comments .comment-meta .comment-metadata {
+    font-size: 85%;
+    margin-top: 5px;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+#comments .comment-meta .comment-metadata .edit-link {
+    margin-left: 10px;
+}
+
+#comments .reply {
+    margin-top: 20px;
+}
+
+#comments .comment-reply-link {
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#comments .comment-reply-link:hover {
+    filter: alpha(opacity=85);
+    opacity: .85;
+}
+
+#comments .comment-reply-link:after {
+    content: "\f119";
+    border: none;
+    transform: none;
+    font-size: 20px;
+    line-height: inherit !important;
+    margin-left: 5px;
+    vertical-align: middle;
+    transition: margin-left 250ms ease;
+}
+
+#comments .comment-reply-link:hover:after {
+    margin-left: 13px;
+}
+
+#comments .comment-form {
+    margin-top: 15px;
+}
+.comment-form p {
+    margin-bottom: 10px;
+}
+
+#comments .comment-form p:last-child {
+    margin-bottom: 0;
+}
+
+#comments .comment-list #respond {
+    margin: -20px 0 40px 0;
+}
+
+#comments .comment-form-info-fields {
+    margin-bottom: 25px;
+}
+
+#comments p.form-submit {
+    clear: both;
+}
+
+#comments span.required {
+    color: #ff7979;
+}
+
+#comments .comment-awaiting-moderation {
+    color: #DB6A23;
+    font-size: 85%;
+}
+
+#comments p.comment-notes,
+// #comments p.logged-in-as,
+#comments p.must-log-in {
+    margin-bottom: 30px;
+    font-size: 90%;
+}
+
+#comments p.form-allowed-tags {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+#comments h3.comment-reply-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+#comments ol li h3.comment-reply-title {
+    margin-top: 60px;
+}
+
+#comments h3.comment-reply-title #cancel-comment-reply-link {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 600;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+#comments .comment-form p.form-submit {
+    margin-bottom: 0;
+    // margin-top: 30px;
+}
+
+#comments .comment-form .comment-subscription-form, #comments .comment-form .comment-subscription-form:only-child {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#comments .comment-form .comment-subscription-form:last-child {
+    margin-top: 0;
+}
+
+@media (min-width: 600px) {
+    .comments-area .comment-form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        // margin-right: -20px;
+        // margin-left: -20px;
+    }
+
+    .comments-area .comment-form-comment {
+        margin-bottom: 1.5rem;
+    }
+
+    .comments-area .comment-notes,
+    .comments-area .comment-form-comment,
+    .comments-area .logged-in-as {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .comments-area .comment-form-author,
+    .comments-area .comment-form-ratings,
+    .comments-area .comment-form-email,
+    .comments-area .comment-form-url {
+        -webkit-box-flex: 0;
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .comments-area .comment-form-author,
+    .comments-area .comment-form-email,
+    .comments-area .comment-form-url {
+        -ms-flex: 0 0 33.3333333333%;
+        flex: 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+
+    .comments-area .comment-form-ratings {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .comments-area .comment-form-cookies-consent,
+    .comments-area .comment-subscription-form {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.form-submit {
+    margin: 0;
+}
+
+@media (min-width: 600px) {
+    .form-submit {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+html,
+body{
+    font-family: "Roboto";
+}
+a,
+.widget a{
+    color: #010101;
+    &:visited{
+        color: #010101;
+    }
+    &:hover{
+        color: #d0021b;
+    }
+}  
+.#{$prefix}-section-title-sm{
+    font-size: 18px;
+}
+.#{$prefix}-post-title{
+    font-size: 18px;
+}
+.#{$prefix}-post-title-sm{
+    font-size: 16px;
+    font-weight: $font_weight_semi_bold;
+}
+.#{$prefix}-post-title-xs{
+    font-size: 14px;
+    font-weight: $font_weight_semi_bold;
+}

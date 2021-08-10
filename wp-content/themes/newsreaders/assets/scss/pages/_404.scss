@@ -1,0 +1,26 @@
+.nr-404-section{
+    padding: 45px 0 60px;
+    text-align: center;
+    @include media(lg){
+        padding: 65px 0 80px;
+    }
+    p,
+    .page-title{
+        margin: 0;
+        padding-top: 10px;
+    }
+    .page-title{
+        color: $color_primary;
+        text-transform: capitalize;
+    }
+    p{
+        font-weight: $font_weight_semi_bold;
+        font-family: $secondary_font;
+    }
+    .nr-section-wrapper{
+        @include media(lg){
+            max-width: 600px;
+            margin: auto;
+        }
+    }
+}

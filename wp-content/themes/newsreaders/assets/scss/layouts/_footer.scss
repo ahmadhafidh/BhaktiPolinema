@@ -1,0 +1,189 @@
+.#{$prefix}-site-footer{
+    background-color: #222;
+    color: $color_white;
+    a,
+    .widget a,
+    .nr-post-style-3 .nr-desc a,
+    .#{$prefix}-meta-tag .entry-meta-item a{
+        color: $color_white;
+        &:visited{
+            color: $color_white;
+        }
+        &:hover{
+            color: $color_primary;
+        }
+    }
+    .#{$prefix}-footer-widgetarea{
+        padding-top: 15px;
+        padding-bottom: 30px;
+        @include border-bottom();
+        border-color: rgba(92, 87, 87, 0.4);
+        .widget{
+            padding-top: 15px;
+        }
+        .wrapper{
+            .wrapper{
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+    .site-info{
+        background-color: inherit;
+        color: $color_white;
+        .#{$prefix}-footer-menu,
+        .#{$prefix}-footer-social-menu{
+            @extend %reset-ul;
+            display: flex;
+            flex-wrap: wrap;
+            a{
+                display: inline-block;
+                padding: 10px 10px 0;
+            }
+        }
+        .#{$prefix}-footer-social-menu{
+            justify-content: center;
+        }
+        .#{$prefix}-footer-menu{
+            justify-content: center;
+            li{
+                position: relative;
+                &:after{
+                    content:'/';
+                    display: inline-block;
+                }
+                &:last-child{
+                    &:after{
+                        content: none;
+                    }
+                }
+            }
+            a{
+                font-weight: $font_weight_semi_bold;
+            }
+
+        }
+        .#{$prefix}-footer-logo{
+            text-align: center;
+        }
+        .#{$prefix}-copyright-section{
+            padding-top: 15px;
+            .#{$prefix}-wrapper{
+                align-items: center;
+            }
+            .site-branding,
+            .site-description{
+                padding-top: 15px   ;
+            }
+        }
+        .#{$prefix}-copyright-text{
+            a{
+                display: inline-block;
+                color: $color_primary;
+                &:visited{
+                    color: $color_primary;
+                }
+                &:hover{
+                    color: $color_white;
+                }
+
+            }
+        }
+    }
+    .#{$prefix}-footer-layout-1{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        .#{$prefix}-footer-social-menu{
+            @include media(sm){
+                justify-content: flex-start;
+            }
+        }
+        .#{$prefix}-footer-menu{
+            @include media(sm){
+                justify-content: flex-end;
+            }
+        }
+        .#{$prefix}-footer-logo{
+            @include media(sm){
+                text-align: left;
+            }
+        }
+        .#{$prefix}-copyright-section{
+            .#{$prefix}-copyright-text{
+                @include media(sm){
+                    text-align: right;
+                }
+            }
+        }
+        .#{$prefix}-copyright-text{
+            padding-top: 15px;
+            text-align: center;
+        }
+    }
+    .#{$prefix}-footer-layout-2{
+        padding-top: 30px;
+        text-align: center; 
+        font-weight: 100;
+       .site-branding,
+        .site-description{
+            padding-bottom: 30px;
+        }
+        .nr-footer-logo{
+            padding-bottom: 20px;
+        }
+       .#{$prefix}-footer-menu{
+           padding-bottom: 10px;
+           a{
+            font-weight: inherit;
+           }
+       }
+       .#{$prefix}-copyright-text{
+            padding-bottom: 30px;
+       }
+       .#{$prefix}-footer-social-menu{
+           background-color: rgba(161, 150, 150, 0.21);
+            width: fit-content;
+            margin: auto;
+            padding: 0 15px 10px;
+            a{
+                padding: 15px 15px 0;
+            }
+       }
+    }
+    .#{$prefix}-footer-layout-3{
+        padding-top: 30px;
+        font-weight: 100;
+        .wrapper-inner{
+            align-items: center;
+        }
+       
+       .#{$prefix}-footer-menu{
+            padding-top: 15px;
+            @include media(sm){
+                justify-content: flex-end;
+            }
+            a{
+                font-weight: inherit;
+            }
+       }
+       
+       .#{$prefix}-copyright-text{
+            padding-top: 30px;
+            @include media(sm){
+                text-align: right;
+            }
+       }
+       .#{$prefix}-footer-social-menu{
+           background-color: rgba(161, 150, 150, 0.21);
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            padding: 0 15px 10px;
+            a{
+                padding: 15px 15px 0;
+            }
+       }
+    }
+
+}

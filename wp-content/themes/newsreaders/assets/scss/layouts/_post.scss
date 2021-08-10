@@ -1,0 +1,88 @@
+.#{$prefix}-post-with-border{
+    .#{$prefix}-section-title{
+        margin: 0;
+        padding-bottom: 15px;
+        @include border-bottom(1.5px,dotted);
+        border-color: rgba($color_shade,0.38);
+    }
+    .#{$prefix}-post{
+        @include border-top(1.5px,dotted);
+        border-color: rgba($color_shade,0.38);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        &:first-child{
+            border-top: 0;
+        }
+    }
+    .#{$prefix}-post-with-icon{
+        &:before{
+            top: 10px;
+        }
+    }
+}
+.#{$prefix}-post-list-with-bg-black{
+    background-color: rgba($color_shade,0.12);
+    // color: $color_white;
+    // a{
+    //     color: $color_white;
+    //     &:visited{
+    //         color: $color_white;
+    //     }
+    //     &:hover{
+    //         color: $color_hover;
+    //     }
+    // }
+}
+.#{$prefix}-post-layout-1{
+    .#{$prefix}-title-section{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 7.5px 15px 7.5px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $color_primary;
+        color: $primary_bg_text_color;
+    }
+    .#{$prefix}-caption{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .#{$prefix}-arrow{
+        display: block;
+        height: 15px;
+        line-height: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .#{$prefix}-section-title{ 
+        margin: 0;
+        line-height: 1.2;
+    }
+    .#{$prefix}-post-list{
+        @include border(8px,solid);
+        border-color: $color_primary;
+        border-top: 0;
+        .#{$prefix}-wrapper{
+            border: 0;
+            &:nth-child(odd){
+                background-color: rgba($color_shade,0.68);
+            }
+        }
+    }
+}
+.#{$prefix}-post-layout-2{
+    .#{$prefix}-post-list{
+        @include border(8px,solid);
+        border-color: $color_hover;
+        padding: 15px 30px 15px;
+    }
+
+}
+.related-posts-area{
+    .post-thumbnail{
+        height: 200px;
+    }
+    .related-post-item{
+        margin-top: 15px;
+    }
+}

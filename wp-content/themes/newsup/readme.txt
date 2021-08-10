@@ -4,7 +4,7 @@ Author: Themeansar
 Requires at least: WordPress 4.7
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 2.9.9.74
+Stable tag: 2.9.9.75
 Version: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -427,3 +427,6 @@ License: CC0 Public Domain
 
 = Version 2.9.9.73
 * Remove widget block editor support.
+
+= Version 2.9.9.75
+* fixed design isuue

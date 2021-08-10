@@ -1,0 +1,75 @@
+.twp-like-dislike-button,
+.booster-block.booster-author-block{
+    margin-top: 15px;
+}
+.twp-social-vk .twp-icon-holder:hover .share-media-nocount:after,
+.twp-social-vk .twp-icon-holder:focus .share-media-nocount:after{
+    border-top-color: #1A4B78;
+    border-left-color: transparent;
+
+}
+.booster-ratings-block{
+    @include border();
+    border-color: rgba($color_shade,0.3);
+    padding: 15px 30px 0;
+    margin-top: 30px;
+    .booster-review-bar,
+    .booster-review-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 30px;
+        @include media(sm){
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding-top: 0;
+        }
+    }
+    .twp-review-link{
+        font-weight: $font_weight_semi_bold;
+    }
+    .twp-bar-rating{
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .individual-bar-bg{
+        .individual-bar-percent{
+            background-color: #FFA500;
+        }
+    }
+}
+.be-author-details{
+    color: $color_black;
+    a{
+        color: $color_black;
+        &:visited{
+            color: $color_black;
+        }
+        &:hover{
+            color: $color_primary;
+        }
+    }
+}
+.twp-reactions-icons{
+    flex-flow: initial;//overwrite
+    justify-content: initial;//overwrite
+    flex-wrap: wrap;
+    @include media(sm){
+        flex-wrap: initial;
+    }
+    .twp-reacts-wrap{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        margin-top: 10px;
+        padding: 0 7.5px;
+        @include media(sm){
+            flex: initial;
+            max-width: initial;
+            flex-grow: 1;
+            margin-top: 0;
+        }
+        img{
+            height: 30px;
+        }
+        
+    }
+}

@@ -1,0 +1,153 @@
+$widget_border_color: rgba(92, 87, 87, 0.4);
+.widget-area{
+    .widget{
+        margin-top: 30px;
+        background-color: rgba($color_shade,0.12);
+        border: 1px solid;
+        border-color: rgba($color_shade,0.38);
+        padding: 5px 15px 15px;
+    }
+    .wrapper{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.widget{
+
+    figure{
+        figcaption{
+            display: none;
+        }
+    }
+    select{
+        font-family: inherit;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    
+}
+.widget_calendar{
+    width: 100%;
+    // margin: 0;
+    table{
+        width: 100%;
+        margin: 0;
+    }
+    caption{
+        font-weight: $font_weight_semi_bold;
+        text-align: right;
+        margin-bottom: 15px;
+    }
+    thead{
+        th{
+            text-align: center;
+        }
+    }
+    tbody{
+        td{
+            background-color: #f5f5f5;
+            border: 1px solid #e8e8e8;
+            text-align: center;
+            padding: 8px;
+            color: $color_black;
+            &:hover{
+                background-color: $color_white;
+            }
+        }
+        .pad{
+            background-color: transparent;
+        }
+    }
+    tfoot{
+        td{
+            &.pad{
+                display: none; 
+            }
+        }
+    }
+}
+.#{$prefix}-footer-widgetarea .widget_recent_entries ul li:not(:last-child),
+.#{$prefix}-footer-widgetarea .widget_categories ul li:not(:last-child),
+.#{$prefix}-footer-widgetarea .widget_pages ul li:not(:last-child),
+.#{$prefix}-footer-widgetarea .widget_archive ul li:not(:last-child),
+.#{$prefix}-footer-widgetarea .widget_meta ul li:not(:last-child),
+.#{$prefix}-footer-widgetarea .widget_categories ul ul.children,
+.#{$prefix}-footer-widgetarea .widget_pages ul ul.children,
+.#{$prefix}-footer-widgetarea .widget_archive ul ul.children{
+    border-color: $widget_border_color;   
+}
+.#{$prefix}-footer-widgetarea .widget_nav_menu .menu > .menu-item:not(:first-child){
+    border-top-color: $widget_border_color;
+}
+
+
+.#{$prefix}-footer-widgetarea{
+    .widget{
+        li{
+            border-color: $widget_border_color;
+        }
+    }
+    .widget_calendar{
+        tbody{
+            td{
+                background-color: transparent;
+                border-color: $widget_border_color;
+                color: inherit;
+            }
+        } 
+    } 
+    .widget_rss{
+        ul{
+            li{
+                .rssSummary{
+                    color: $color_white;
+                }
+                a{
+                    color: $color_white;
+                    &:visited{
+                        color: $color_white;
+                    }
+                    &:hover{
+                        color: $color_primary;
+                    }
+                }
+            }
+        }
+    }
+    input{
+        border-color: $widget_border_color;
+    }
+    .widget_text{
+        color: $color_white;
+    }
+    .widget_tag_cloud{
+        .tagcloud{
+            a{
+                background-color: $widget_border_color;
+            }
+        }
+    } 
+
+}
+.widget{
+    select{
+        padding: 7px 15px;
+        font-family: inherit;
+        width: 100%;
+        border-color: rgba($color_shade,0.38);
+        -webkit-appearance: none;
+        background-image:   linear-gradient(45deg, transparent 50%, gray 50%),
+                            linear-gradient(135deg, gray 50%, transparent 50%),
+                            linear-gradient(to right, #ccc, #ccc);
+        background-position: calc(100% - 20px) calc(1em + 2px),
+                             calc(100% - 15px) calc(1em + 2px),
+                             calc(100% - 2.5em) 0.5em;
+        background-size: 5px 5px,5px 5px,1px 1.5em;
+        background-repeat: no-repeat;
+        &:focus{
+            outline: 0;
+        }
+    }
+    
+}

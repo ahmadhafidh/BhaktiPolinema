@@ -1,0 +1,39 @@
+.archive-layout-default{
+    .twp-archive-items{
+        &:before,
+        &:after{
+            @extend %clearfix;
+        }
+        
+        .post-thumbnail,
+        .post-content{
+            position: relative;
+            float: left;
+        }
+        
+        &.has-post-thumbnail{
+            .post-thumbnail,
+            .post-content{
+                width: 100%;
+                @include media(sm){
+                    width: 50%;
+                }
+            }
+            .post-thumbnail{
+                @include media(lg){
+                    width: 33.33%;
+                }
+            }
+            .post-content{
+                padding-left: 15px;
+                padding-right: 15px;
+                @include media(lg){
+                    width: 66.66%;
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+} 
+
+

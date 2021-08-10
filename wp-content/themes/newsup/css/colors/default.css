@@ -93,8 +93,12 @@ a.newsup-categories.category-color-4{background: #82b74b;}
 	background: #1151d3;
 	color: #fff;
 }
-.navbar-wp .dropdown-menu > li > a:hover {
+.navbar-wp .dropdown-menu > li > a:hover, .navbar-wp .dropdown-menu > li > a.bg-light:hover  {
 	background: #1151d3 !important;
+	color: #fff !important;
+}
+.navbar-wp .dropdown-menu li a.bg-light:hover  {
+	background-color: #1151d3 !important;
 	color: #fff !important;
 }
 .navbar-wp .dropdown-menu > li > a {

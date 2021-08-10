@@ -1,0 +1,8 @@
+@mixin transform($transform...){
+    transform:  $transform;
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+}
+@mixin transition($content:all,$duration:0.5s,$type:linear){
+    transition: $content $duration $type;
+}
